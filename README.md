@@ -20,27 +20,52 @@ Calculateshot : 48 8B C4 48 89 58 18 55 56 57 41 54 41 55 41 56 41 57 48 8D A8 ?
 
 
 Uworld = 0x99b5930
+
 OwningGameInstance = 0x180
+
 LocalPlayers = 0x38
+
 PlayerController = 0x30
+
 PlayerCameraManager = 0x2B8
+
 AcknowledgedPawn = 0x2A0
+
 Levels = 0x138
+
 PersistentLevel = 0x30
+
 AActors = 0x98
+
 ActorCount = 0xA0
+
 ComponentVelocity = 0x140
+
 RootComponent = 0x130
+
 FireStartLoc = 0x880
+
 RelativeLocation = 0x11c
+
 RelativeRotation = 0x128
+
 CurrentWeapon = 0x600
+
 PlayerState = 0x240
+
 Mesh = 0x280
+
 TeamIndex = 0xED0
+
 bDisableEquipAnimation = 0x2B3
-bADSWhileNotOnGround = 0x3b21 // 0x3b11
-ReviveFromDBNOTime = 0x3430 // 0x3420
+
+bADSWhileNotOnGround = 0x3b21
+
+ReviveFromDBNOTime = 0x3430
+
 CustomTimeDilation = 0x98
+
 LastFireTime = 0x9BC
+
 LastFireTimeVerified = 0x9C0
+
