@@ -1,4 +1,4 @@
 # Fortnite-sigs
-The latest fortnite sigs every update!
+The latest fortnite sigs and offsets every update!
 
-# Working on: 18.00
+# Working on: 18.10
