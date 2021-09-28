@@ -34,5 +34,6 @@ Engine.StaticMeshComponent.StaticMesh 0x480
 Engine.SkinnedMeshComponent.CachedWorldSpaceBounds 0x618
 Engine.Actor.CustomTimeDilation 0x98
 Engine.Controller.RemoteViewPitch 0x232
+FortniteGame.FortPlayerStateAthena.TeamIndex 0xED8
 
 NOT SURE IF ALL STATIC OFFSETS ARE CORRECT (I JUST ASSUMED THEY DIDN'T CHANGE)
