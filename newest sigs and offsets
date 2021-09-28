@@ -1,0 +1,38 @@
+Signatures:
+Uworld = 48 8B 05 ? ? ? ? 4D 8B C2
+GoObjects = 48 8B 05 ? ? ? ? 48 8B 0C C8 48 8B 04 D1
+LineOfSight = E8 ? ? ? ? 48 8B 0D ? ? ? ? 33 D2 40 8A F8
+ProjectWorldToScreen = E8 ? ? ? ? 41 88 07 48 83 C4 30
+CalculateSpreadHook = E8 ? ? ? ? 48 8D 4B 28 E8 ? ? ? ? 48 8B C8
+SpreadCaller = 0F 57 D2 48 8D 4C 24 ? 41 0F 28 CC E8 ? ? ? ? 48 8B 4D B0 0F 28 F0 48 85 C9
+CalculateShot = 48 8B C4 48 89 58 18 55 56 57 41 54 41 55 41 56 41 57 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 70 B8 0F 29 78 A8 44 0F 29 40 ? 44 0F 29 48 ? 44 0F 29 90 ? ? ? ? 44 0F 29 98 ? ? ? ? 44 0F 29 A0 ? ? ? ? 44 0F 29 A8 ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 48 8B F1
+
+Main Offsets:
+UWorld = 0x9ca73b0
+GoObjects = 0xa0a26c4
+LineOfSightTo = 0xffffffff8fb590df
+ProjectionWorldToScreen = 0xffffffff8e99b632
+SpreadCaller = 0x25516cc4
+
+(Some) StaticOffsets:
+Engine.World.Levels 0x140
+Engine.World.PersistentLevel 0x30
+Engine.GameInstance.LocalPlayers 0x38
+Engine.Player.PlayerController 0x30
+Engine.World.OwningGameInstance 0x188
+Engine.Controller.ControlRotation 0x288
+Engine.PlayerController.PlayerCameraManager 0x2B8
+Engine.PlayerController.AcknowledgedPawn 0x2A0
+Engine.Pawn.PlayerState 0x240
+Engine.Actor.RootComponent 0x130
+Engine.Character.Mesh 0x280
+Engine.SceneComponent.RelativeLocation 0x11C
+Engine.SceneComponent.RelativeRotation 0x128
+Engine.SceneComponent.ComponentVelocity 0x140
+Engine.SceneComponent.ComponentToWorld 0x14c
+Engine.StaticMeshComponent.StaticMesh 0x480
+Engine.SkinnedMeshComponent.CachedWorldSpaceBounds 0x618
+Engine.Actor.CustomTimeDilation 0x98
+Engine.Controller.RemoteViewPitch 0x232
+
+NOT SURE IF ALL STATIC OFFSETS ARE CORRECT (I JUST ASSUMED THEY DIDN'T CHANGE)
